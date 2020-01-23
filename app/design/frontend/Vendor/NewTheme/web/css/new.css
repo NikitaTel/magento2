@@ -1,0 +1,15 @@
+.new_links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.my_links_div>div>div>a{
+    color:black;
+}
+.my_links_div{
+    display:flex;
+    flex-direction: column;
+}
+

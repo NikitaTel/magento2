@@ -1,0 +1,19 @@
+<?php declare(strict_types=1);
+?>
+<script type="text/x-magento-init">
+{
+"#target":{
+        "Magento_Theme/js/requirejs-example":
+                {
+                    "base_url": "<?= $block->escapeJs($block->getBaseUrl()) ?>"
+                }
+           }
+}
+</script>
+<pre id="target"></pre>
+
+<div id="loaded" data-mage-init='{"js/loaded_2":{}}'></div>
+<div id="loaded_2" data-mage-init='{"js/log_when_loaded":{}}'></div>
+<div id="loaded_3" data-mage-init='{"js/loaded_first":{}}'></div>
+
+
