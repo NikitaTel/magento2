@@ -4,6 +4,7 @@
 
     <referenceContainer name="content">
 
+
 <!--        <block name="my.validation" template="Magento_Theme::form-container.phtml"/>-->
 <!--        <block name="my.title" template="Magento_Theme::header-container.phtml" />-->
 <!--        <block name="my.js.container" template = "Magento_Theme::js-container.phtml"/>-->
@@ -17,7 +18,9 @@
         <block name="subscribe.text" template="Magento_Theme::subscribe_text.phtml"/>
     </container>
 
-
+    <container name="dark.wrapper" htmlTag="div" >
+        <block name="dark.darkness" template="Magento_Theme::dark_template.phtml"/>
+    </container>
 
 </referenceContainer>
 

@@ -91,3 +91,52 @@ div{
 .closed h2:after{
     content:"▴";
 }
+
+.dark-wrapper{
+    height:100vh;
+    padding:20px;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    background-color: lighten(#000000,15%);
+    h2,h3{
+        margin-top:0;
+        font-weight: bold;
+    }
+
+}
+
+.main-section{
+    padding:0;
+}
+.sidebar-left{
+    background-color: lighten(black,10%);
+    margin-right:20px;
+    display:flex;
+    height:70%;
+    flex-direction: column;
+    flex-basis:80%;
+
+
+div{
+    padding-left:10px;
+    flex-grow:1;
+    display: flex;
+    align-items:center;
+    border:0.1px solid black;
+a{
+    text-decoration:none;
+}
+    a:visited{
+        color:darken(white,40%);
+    }
+    a:hover{
+        text-decoraton:none;
+        color:#FF4500;
+    }
+}
+}
+.description_text{
+    line-height: 2em;
+    color:darken(white,40%);
+}
